@@ -1,3 +1,4 @@
+Create Database sikshalaya
 Use sikshalaya
 CREATE TABLE Users (
     user_id INT AUTO_INCREMENT PRIMARY KEY,
