@@ -88,3 +88,5 @@ CREATE TABLE Fees (
 );
 
 
+ALTER TABLE Users 
+MODIFY role ENUM('Admin', 'Teacher', 'Student', 'Guard') NOT NULL;
