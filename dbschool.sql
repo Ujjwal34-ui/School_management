@@ -7,7 +7,7 @@ CREATE TABLE Users (
     role ENUM('Admin', 'Teacher', 'Student') NOT NULL,
     Email VARCHAR(100) UNIQUE,
     Contact VARCHAR(15),
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+   
 );
 select* from Users
 CREATE TABLE Students (
